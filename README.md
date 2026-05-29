@@ -1,9 +1,12 @@
 # Claude Code Production Readiness Gate (Deployment Checklist, Release Gate & Rollback Framework)
 
-[![Production Readiness](https://img.shields.io/badge/Production%20Readiness-Gate%20Enforced-0ea5e9?style=for-the-badge)](#decision-framework-go--no-go-policy)
-[![Deployment Safety](https://img.shields.io/badge/Deployment-Safety%20First-22c55e?style=for-the-badge)](#hard-stop-rules-automatic-no-go)
-[![Incident Prevention](https://img.shields.io/badge/Focus-Incident%20Prevention-f59e0b?style=for-the-badge)](#why-this-exists-the-production-weakness-it-fixes)
-[![GitHub last commit](https://img.shields.io/github/last-commit/dewhush/claude-code-production-readiness-gate?style=for-the-badge)](https://github.com/dewhush/claude-code-production-readiness-gate/commits/main)
+[![Production Readiness](https://img.shields.io/badge/production%20readiness-gate%20enforced-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](#decision-framework-go--no-go-policy)
+[![Deployment Safety](https://img.shields.io/badge/deployment-safety%20first-22c55e?style=for-the-badge&logo=shield&logoColor=white)](#hard-stop-rules-automatic-no-go)
+[![Incident Prevention](https://img.shields.io/badge/focus-incident%20prevention-f59e0b?style=for-the-badge&logo=sentry&logoColor=white)](#why-this-exists-the-production-weakness-it-fixes)
+[![Release Gate](https://img.shields.io/badge/release%20policy-GO%20%7C%20GO%20WITH%20GUARDS%20%7C%20NO--GO-334155?style=for-the-badge&logo=githubactions&logoColor=white)](#decision-framework-go--no-go-policy)
+[![Maintained](https://img.shields.io/badge/maintained-yes-16a34a?style=for-the-badge&logo=dependabot&logoColor=white)](#contributing)
+[![GitHub last commit](https://img.shields.io/github/last-commit/dewhush/claude-code-production-readiness-gate?style=for-the-badge&logo=github)](https://github.com/dewhush/claude-code-production-readiness-gate/commits/main)
+[![License](https://img.shields.io/badge/license-MIT-7c3aed?style=for-the-badge&logo=open-source-initiative&logoColor=white)](#license)
 
 > **Ship to production with confidence, not vibes.**  
 > A practical, high-signal **Claude Code production deployment skill** that enforces a strict readiness gate before release.
